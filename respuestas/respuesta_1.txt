@@ -1,1 +1,4 @@
 TIPO | Justificación corta
+
+En una red de transporte donde se analizan rutas óptimas, conexiones entre nodos y caminos alternativos, la base de datos más adecuada es una base de datos orientada a grafos, como por ejemplo Neo4j. Este tipo de sistema es ideal porque modela la información mediante nodos y relaciones. Los nodos pueden representar ciudades, estaciones o aeropuertos, mientras que las relaciones representan las rutas que los conectan. Este modelo permite calcular de forma eficiente el camino más corto entre dos puntos, encontrar rutas alternativas y analizar la conectividad general de la red. A diferencia de una base de datos relacional, donde sería necesario realizar múltiples uniones complejas entre tablas, en una base de datos de grafos las relaciones forman parte central de la estructura, lo que hace que las consultas sobre conexiones sean más rápidas y naturales.
+
